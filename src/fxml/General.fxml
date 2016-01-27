@@ -5,7 +5,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="580.0" prefWidth="833.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.GeneralController">
+<AnchorPane id="AnchorPane" prefHeight="580.0" prefWidth="833.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GeneralController">
     <stylesheets>
         <URL value="@/style/general.css" />
     </stylesheets>
@@ -14,29 +14,24 @@
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
-                  <TitledPane animated="false" text="untitled">
-                    <content>
-                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                    </content>
-                  </TitledPane>
                   <Accordion prefHeight="75.0" prefWidth="245.0">
                     <panes>
-                      <TitledPane animated="false" text="untitled 1">
+                      <TitledPane animated="false" text="Состав профсоюза">
                         <content>
                           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                         </content>
                       </TitledPane>
-                      <TitledPane animated="false" text="untitled 2">
+                      <TitledPane animated="false" text="Заполнение дополнительных данных">
                         <content>
                           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                         </content>
                       </TitledPane>
-                      <TitledPane animated="false" text="untitled 3">
+                      <TitledPane animated="false" text="Отчёты">
                         <content>
                           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                         </content>
                       </TitledPane>
-                        <TitledPane animated="false" text="untitled">
+                        <TitledPane animated="false" text="Настройки">
                           <content>
                             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                           </content>
